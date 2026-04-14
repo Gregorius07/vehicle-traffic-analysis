@@ -59,7 +59,7 @@ const StatsCards = (props) => {
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
       {cards.map((c) => (
         <div class={`glass-card rounded-2xl p-6 relative overflow-hidden group`}>
-          <div class={`absolute inset-0 bg-gradient-to-br ${c.bg} opacity-50 group-hover:opacity-100 transition-opacity duration-300`} />
+          <div class={`absolute inset-0 bg-linear-to-br ${c.bg} opacity-50 group-hover:opacity-100 transition-opacity duration-300`} />
           <div class="relative z-10">
             <div class={`w-12 h-12 rounded-xl border ${c.border} bg-[#0a0812]/50 flex items-center justify-center mb-4`}>
               {c.icon}
